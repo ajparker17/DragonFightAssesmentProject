@@ -6,6 +6,9 @@ public class DragonMovements : MonoBehaviour
 {
     Animator animator;
     Vector2 input;
+
+    bool isTroting = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -20,5 +23,17 @@ public class DragonMovements : MonoBehaviour
 
         animator.SetFloat("InputX", input.x);
         animator.SetFloat("InputY", input.y);
+
+        if(Input.GetKey(KeyCode.LeftShift))
+        {
+            isTroting = true;
+        }
+        else
+        {
+            isTroting = false;
+        }
+
+        //Debug.Log(isTroting);
+        animator.SetBool("isTroting", isTroting);
     }
 }
