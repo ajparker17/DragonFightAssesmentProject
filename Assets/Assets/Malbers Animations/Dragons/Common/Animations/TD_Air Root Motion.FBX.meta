@@ -4,533 +4,113 @@ ModelImporter:
   serializedVersion: 21202
   internalIDToNameTable:
   - first:
-      1: 100000
-    second: CG
-  - first:
-      1: 100002
-    second: EyesDrago
-  - first:
-      1: 100004
-    second: Head
-  - first:
-      1: 100006
-    second: Jaw
-  - first:
-      1: 100008
-    second: L Calf
-  - first:
-      1: 100010
-    second: L Clavicle
-  - first:
-      1: 100012
-    second: L Finger0
-  - first:
-      1: 100014
-    second: L Foot
-  - first:
-      1: 100016
-    second: L Forearm
-  - first:
-      1: 100018
-    second: L Hand
-  - first:
-      1: 100020
-    second: L HorseLink
-  - first:
-      1: 100022
-    second: L Thigh
-  - first:
-      1: 100024
-    second: L UpperArm
-  - first:
-      1: 100026
-    second: Neck
-  - first:
-      1: 100028
-    second: Neck1
-  - first:
-      1: 100030
-    second: Neck2
-  - first:
-      1: 100032
-    second: Pelvis
-  - first:
-      1: 100034
-    second: R Calf
-  - first:
-      1: 100036
-    second: R Clavicle
-  - first:
-      1: 100038
-    second: R Finger0
-  - first:
-      1: 100040
-    second: R Foot
-  - first:
-      1: 100042
-    second: R Forearm
-  - first:
-      1: 100044
-    second: R Hand
-  - first:
-      1: 100046
-    second: R HorseLink
-  - first:
-      1: 100048
-    second: R Thigh
-  - first:
-      1: 100050
-    second: R UpperArm
-  - first:
-      1: 100052
-    second: Spine
-  - first:
-      1: 100054
-    second: Spine1
-  - first:
-      1: 100056
-    second: Tail
-  - first:
-      1: 100058
-    second: Tail1
-  - first:
-      1: 100060
-    second: Tail2
-  - first:
-      1: 100062
-    second: TD
-  - first:
-      1: 100064
-    second: //RootNode
-  - first:
-      1: 100066
-    second: WingBone1L
-  - first:
-      1: 100068
-    second: WingBone1L02
-  - first:
-      1: 100070
-    second: WingBone1L03
-  - first:
-      1: 100072
-    second: WingBone1R
-  - first:
-      1: 100074
-    second: WingBone1R02
-  - first:
-      1: 100076
-    second: WingBone1R03
-  - first:
-      1: 100078
-    second: WingBone2L
-  - first:
-      1: 100080
-    second: WingBone2L02
-  - first:
-      1: 100082
-    second: WingBone2L03
-  - first:
-      1: 100084
-    second: WingBone2R
-  - first:
-      1: 100086
-    second: WingBone2R02
-  - first:
-      1: 100088
-    second: WingBone2R03
-  - first:
-      1: 100090
-    second: WingBoneL
-  - first:
-      1: 100092
-    second: WingBoneR
-  - first:
-      1: 100094
-    second: ' Footsteps'
-  - first:
-      1: 100096
-    second: ' HeadNub'
-  - first:
-      1: 100098
-    second: ' JawNub'
-  - first:
-      1: 100100
-    second: ' L Finger0Nub'
-  - first:
-      1: 100102
-    second: ' L Toe0'
-  - first:
-      1: 100104
-    second: ' L Toe0Nub'
-  - first:
-      1: 100106
-    second: ' R Finger0Nub'
-  - first:
-      1: 100108
-    second: ' R Toe0'
-  - first:
-      1: 100110
-    second: ' R Toe0Nub'
-  - first:
-      1: 100112
-    second: ' TailNub'
-  - first:
-      1: 100114
-    second: CG WingBone1LNub
-  - first:
-      1: 100116
-    second: CG WingBone1RNub
-  - first:
-      1: 100118
-    second: CG WingBone2LNub
-  - first:
-      1: 100120
-    second: CG WingBone2RNub
-  - first:
-      1: 100122
-    second: CG WingBoneLNub
-  - first:
-      1: 100124
-    second: CG WingBoneRNub
-  - first:
-      1: 100126
-    second: TigerDrago
-  - first:
-      1: 100128
-    second: x
-  - first:
-      4: 400000
-    second: CG
-  - first:
-      4: 400002
-    second: EyesDrago
-  - first:
-      4: 400004
-    second: Head
-  - first:
-      4: 400006
-    second: Jaw
-  - first:
-      4: 400008
-    second: L Calf
-  - first:
-      4: 400010
-    second: L Clavicle
-  - first:
-      4: 400012
-    second: L Finger0
-  - first:
-      4: 400014
-    second: L Foot
-  - first:
-      4: 400016
-    second: L Forearm
-  - first:
-      4: 400018
-    second: L Hand
-  - first:
-      4: 400020
-    second: L HorseLink
-  - first:
-      4: 400022
-    second: L Thigh
-  - first:
-      4: 400024
-    second: L UpperArm
-  - first:
-      4: 400026
-    second: Neck
-  - first:
-      4: 400028
-    second: Neck1
-  - first:
-      4: 400030
-    second: Neck2
-  - first:
-      4: 400032
-    second: Pelvis
-  - first:
-      4: 400034
-    second: R Calf
-  - first:
-      4: 400036
-    second: R Clavicle
-  - first:
-      4: 400038
-    second: R Finger0
-  - first:
-      4: 400040
-    second: R Foot
-  - first:
-      4: 400042
-    second: R Forearm
-  - first:
-      4: 400044
-    second: R Hand
-  - first:
-      4: 400046
-    second: R HorseLink
-  - first:
-      4: 400048
-    second: R Thigh
-  - first:
-      4: 400050
-    second: R UpperArm
-  - first:
-      4: 400052
-    second: Spine
-  - first:
-      4: 400054
-    second: Spine1
-  - first:
-      4: 400056
-    second: Tail
-  - first:
-      4: 400058
-    second: Tail1
-  - first:
-      4: 400060
-    second: Tail2
-  - first:
-      4: 400062
-    second: TD
-  - first:
-      4: 400064
-    second: //RootNode
-  - first:
-      4: 400066
-    second: WingBone1L
-  - first:
-      4: 400068
-    second: WingBone1L02
-  - first:
-      4: 400070
-    second: WingBone1L03
-  - first:
-      4: 400072
-    second: WingBone1R
-  - first:
-      4: 400074
-    second: WingBone1R02
-  - first:
-      4: 400076
-    second: WingBone1R03
-  - first:
-      4: 400078
-    second: WingBone2L
-  - first:
-      4: 400080
-    second: WingBone2L02
-  - first:
-      4: 400082
-    second: WingBone2L03
-  - first:
-      4: 400084
-    second: WingBone2R
-  - first:
-      4: 400086
-    second: WingBone2R02
-  - first:
-      4: 400088
-    second: WingBone2R03
-  - first:
-      4: 400090
-    second: WingBoneL
-  - first:
-      4: 400092
-    second: WingBoneR
-  - first:
-      4: 400094
-    second: ' Footsteps'
-  - first:
-      4: 400096
-    second: ' HeadNub'
-  - first:
-      4: 400098
-    second: ' JawNub'
-  - first:
-      4: 400100
-    second: ' L Finger0Nub'
-  - first:
-      4: 400102
-    second: ' L Toe0'
-  - first:
-      4: 400104
-    second: ' L Toe0Nub'
-  - first:
-      4: 400106
-    second: ' R Finger0Nub'
-  - first:
-      4: 400108
-    second: ' R Toe0'
-  - first:
-      4: 400110
-    second: ' R Toe0Nub'
-  - first:
-      4: 400112
-    second: ' TailNub'
-  - first:
-      4: 400114
-    second: CG WingBone1LNub
-  - first:
-      4: 400116
-    second: CG WingBone1RNub
-  - first:
-      4: 400118
-    second: CG WingBone2LNub
-  - first:
-      4: 400120
-    second: CG WingBone2RNub
-  - first:
-      4: 400122
-    second: CG WingBoneLNub
-  - first:
-      4: 400124
-    second: CG WingBoneRNub
-  - first:
-      4: 400126
-    second: TigerDrago
-  - first:
-      4: 400128
-    second: x
-  - first:
-      23: 2300000
-    second: EyesDrago
-  - first:
-      33: 3300000
-    second: EyesDrago
-  - first:
-      43: 4300000
-    second: TD
-  - first:
-      43: 4300002
-    second: EyesDrago
-  - first:
-      43: 4300004
-    second: TigerDrago
-  - first:
-      74: 7400000
+      74: 1290214690342087516
     second: Fly Idle
   - first:
-      74: 7400002
+      74: -884452309727542094
     second: Fly Backward
   - first:
-      74: 7400004
+      74: 2845011752032777621
     second: Fly Foward
   - first:
-      74: 7400006
+      74: -9126935328807374457
     second: Fly Glide
   - first:
-      74: 7400008
+      74: -7031640607182021896
     second: Fly Foward R
   - first:
-      74: 7400010
+      74: 2334033516982607195
     second: Fly Glide R
   - first:
-      74: 7400012
+      74: -8238536142908170631
     second: Fly Foward L
   - first:
-      74: 7400014
+      74: 4528732361144541869
     second: Fly Glide L
   - first:
-      74: 7400016
+      74: 5462003243622519217
     second: Fly Dodge R
   - first:
-      74: 7400018
+      74: 1445591655711554802
     second: Fly Dodge L
   - first:
-      74: 7400020
+      74: -6453852664351575486
     second: Fly L
   - first:
-      74: 7400022
+      74: -4582530990564303768
     second: Fly R
   - first:
-      74: 7400024
+      74: 7881635008349010722
     second: Fly UP Foward
   - first:
-      74: 7400026
+      74: -5823641799627568948
     second: Fly Down Foward
   - first:
-      74: 7400028
+      74: -6690405183977493019
     second: Fly Land
   - first:
-      74: 7400030
+      74: -604838384251464273
     second: Fly Take off
   - first:
-      74: 7400032
+      74: -5364198015739089624
     second: Fly Get Hit R
   - first:
-      74: 7400034
+      74: 3338998290486121705
     second: Fly Get Hit L
   - first:
-      74: 7400036
+      74: 6619540437893321857
     second: Fly Hit and Fall
   - first:
-      74: 7400038
+      74: 4254213330279334327
     second: Fly Fall
   - first:
-      74: 7400040
+      74: 7491257412960453893
     second: Fly Death
   - first:
-      74: 7400042
+      74: -3029520654776744590
     second: Fly Fall Recover
   - first:
-      74: 7400044
+      74: -2003317102336791282
     second: Fly Attack Feet
   - first:
-      74: 7400046
+      74: 6385361011749422072
     second: Fly Attack FireBall
   - first:
-      74: 7400048
+      74: 8312539607305427009
     second: Fly Up
   - first:
-      74: 7400050
+      74: -7672480274577555294
     second: Fly Up Foward R
   - first:
-      74: 7400052
+      74: -8137529447002385494
     second: Fly Up Foward L
   - first:
-      74: 7400054
+      74: -934478639026349601
     second: Fly Down
   - first:
-      74: 7400056
+      74: 1953295207225046121
     second: Fly Down R
   - first:
-      74: 7400058
+      74: -2440390495562905682
     second: Fly Down L
   - first:
-      74: 7400060
-    second: Fall
-  - first:
-      74: 7400062
-    second: Fall2
-  - first:
-      74: 7400064
+      74: -8903340685430145781
     second: Fly Turn L
   - first:
-      74: 7400066
+      74: -732104617648291557
     second: Fly Turn R
-  - first:
-      95: 9500000
-    second: //RootNode
-  - first:
-      137: 13700000
-    second: TD
-  - first:
-      137: 13700002
-    second: TigerDrago
   externalObjects: {}
   materials:
-    materialImportMode: 0
+    materialImportMode: 2
     materialName: 0
     materialSearch: 1
-    materialLocation: 0
+    materialLocation: 1
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
-    removeConstantScaleCurves: 0
+    removeConstantScaleCurves: 1
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -560,7 +140,7 @@ ModelImporter:
       cycleOffset: 0
       loop: 0
       hasAdditiveReferencePose: 0
-      loopTime: 0
+      loopTime: 1
       loopBlend: 1
       loopBlendOrientation: 1
       loopBlendPositionY: 1
@@ -3176,14 +2756,16 @@ ModelImporter:
       - time: 0.009177492
         functionName: Eyes
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: c4c988c800d11794680c307fafec6cb5, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: c4c988c800d11794680c307fafec6cb5,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
       - time: 0.57834095
         functionName: Eyes
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: c4c988c800d11794680c307fafec6cb5, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: c4c988c800d11794680c307fafec6cb5,
+          type: 3}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
@@ -3345,7 +2927,8 @@ ModelImporter:
       - time: 0.43076897
         functionName: Eyes
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: c4c988c800d11794680c307fafec6cb5, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: c4c988c800d11794680c307fafec6cb5,
+          type: 3}
         floatParameter: 0
         intParameter: 0
         messageOptions: 0
@@ -3780,7 +3363,8 @@ ModelImporter:
       - time: 0.13461436
         functionName: Eyes
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: c4c988c800d11794680c307fafec6cb5, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: c4c988c800d11794680c307fafec6cb5,
+          type: 3}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
@@ -4104,7 +3688,8 @@ ModelImporter:
       - time: 0.15350877
         functionName: FireAttack
         data: 
-        objectReferenceParameter: {fileID: 11500000, guid: 58e889cf9faf0e646a645c31d629350b, type: 3}
+        objectReferenceParameter: {fileID: 11500000, guid: 58e889cf9faf0e646a645c31d629350b,
+          type: 3}
         floatParameter: 0
         intParameter: 1
         messageOptions: 0
@@ -4219,7 +3804,7 @@ ModelImporter:
       loop: 0
       hasAdditiveReferencePose: 0
       loopTime: 0
-      loopBlend: 1
+      loopBlend: 0
       loopBlendOrientation: 1
       loopBlendPositionY: 0
       loopBlendPositionXZ: 0
@@ -5433,12 +5018,12 @@ ModelImporter:
     addColliders: 0
     useSRGBMaterialColor: 1
     sortHierarchyByName: 1
-    importVisibility: 0
-    importBlendShapes: 0
-    importCameras: 0
-    importLights: 0
-    nodeNameCollisionStrategy: 0
-    fileIdsGeneration: 1
+    importVisibility: 1
+    importBlendShapes: 1
+    importCameras: 1
+    importLights: 1
+    nodeNameCollisionStrategy: 1
+    fileIdsGeneration: 2
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
@@ -5450,8 +5035,8 @@ ModelImporter:
     maxBonesPerVertex: 4
     minBoneWeight: 0.001
     optimizeBones: 1
-    meshOptimizationFlags: 1
-    indexFormat: 1
+    meshOptimizationFlags: -1
+    indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
@@ -5462,11 +5047,11 @@ ModelImporter:
     useFileScale: 1
   tangentSpace:
     normalSmoothAngle: 60
-    normalImportMode: 2
-    tangentImportMode: 2
-    normalCalculationMode: 0
-    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
-    blendShapeNormalImportMode: 2
+    normalImportMode: 0
+    tangentImportMode: 3
+    normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 0
+    blendShapeNormalImportMode: 1
     normalSmoothingSource: 0
   referencedClips: []
   importAnimation: 1
@@ -5486,12 +5071,13 @@ ModelImporter:
     hasTranslationDoF: 0
     hasExtraRoot: 0
     skeletonHasParents: 0
-  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c869acf0f32d55340b4dd39f39cc49f3, type: 3}
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: c869acf0f32d55340b4dd39f39cc49f3,
+    type: 3}
   autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 2
   humanoidOversampling: 1
   avatarSetup: 2
-  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 1
   additionalBone: 0
   userData: 
   assetBundleName: 

@@ -4,29 +4,23 @@ using UnityEngine;
 
 public class DragonMovements : MonoBehaviour
 {
-    private CharacterController controller;
-    Rigidbody rigidBody;
 
+    Rigidbody rigidbody;
     Animator animator;
     Vector2 input;
 
-
     bool isTroting = false;
-    bool ascend;
-    bool inAir;
 
     // Start is called before the first frame update
     void Start()
     {
-        rigidBody = GetComponent<Rigidbody>();
         animator = GetComponent<Animator>();
+        rigidbody = GetComponent<Rigidbody>();
     }
 
     // Update is called once per frame
     void Update()
     {
-        //Debug.Log(controller.isGrounded);
-
         input.x = Input.GetAxis("Horizontal");
         input.y = Input.GetAxis("Vertical");
 
@@ -41,29 +35,8 @@ public class DragonMovements : MonoBehaviour
         {
             isTroting = false;
         }
-
-        //Debug.Log(isTroting);
         animator.SetBool("isTroting", isTroting);
 
-        //Levitate to air
-         if(Input.GetKey(KeyCode.Q))
-        {   
-            Debug.Log("Flying");
-            animator.SetBool("toAir", true);
-            rigidBody.isKinematic = true;
-        }
 
-         if(Input.GetKey(KeyCode.E))
-        {
-            Debug.Log("Fallin");
-            animator.SetBool("toAir", false);
-            rigidBody.isKinematic = false;
-        }
-
-        animator.SetBool("inAir",rigidBody.isKinematic);
-        
     }
-
-
-    
 }
